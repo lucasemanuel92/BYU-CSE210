@@ -1,0 +1,43 @@
+# CSE 210 - Week 01 - VERSION CONTROL
+
+
+Explain the meaning of Version Control
+Highlight a benefit of Version Control
+Provide an application of Version Control. This means, provide an example of how Version Control could be used.
+Show a command used in Version Control (for example a Git command)
+Thoroughly explain these concepts (this likely cannot be done in less than 100 words)
+
+## EN:
+
+Versioning control or source control is a way of managing changes made to the code being worked on. 
+Control helps teams access changed material over a network, without the need for physical contact with the programmer or 
+computer on which the change was made. Versioning control also helps the developer to save and make their work available 
+in a more secure and efficient way, preventing, for example, the file from being lost in the event of damage to the 
+physical machine.
+One of the benefits of versioning is being able to identify changes made to each part of the code and align how the work 
+is being done, preventing developers from working in the wrong way and causing errors in different parts of the code. 
+One of the most popular versioning controls is Git, it uses practical commands to perform specific tasks. 
+Here are some examples:
+git init - Creating a new repository
+git add - Adds a specific new file
+git commit - Commit the file
+git rm -r - Remove directory
+git push - Make a push to github
+
+## PT-BR:
+
+Controle de versionamento ou controle de fonte é uma forma de gerenciar alterações realizadas no código que está sendo 
+trabalhado. O controle ajuda as equipes a terem acesso ao material alterado através de uma rede, sem ser necessário 
+contato físico com o programador ou computador na qual a alteração foi realizada. O controle de versionamento também 
+ajuda o desenvolvedor a salvar e disponibilizar o trabalho de forma mais segura e eficaz, evitando por exemplo que o 
+arquivo se perca em caso de dano na máquina física. 
+Um dos benefícios do versionamento é poder identificar as alterações feitas em cada parte do código e alinhando como o 
+trabalho está sendo feito, evitando que os desenvolvedores trabalhem de maneira errada e causando erros em diferentes 
+partes do código. Um dos controles de versionamento mais populares é o Git, ele se utiliza de comandos práticos para 
+executar tarefas específicas. Seguem alguns exemplos:
+git init - Cria um novo repositório 
+git add - Adiciona um novo arquivo específico
+git commit - Comita o aquiro
+git rm -r - Remove diretório
+git push - Faz um push no github
+
