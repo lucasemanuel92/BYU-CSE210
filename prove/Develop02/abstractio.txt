@@ -1,0 +1,47 @@
+# Abstraction Concept.
+
+Abstraction is a way of writing only what is necessary for the code to work, this way it is possible to "hide" unnecessary codes. 
+One of the biggest benefits of abstraction is that it keeps the code smaller, making it easier to read, understand, maintain, 
+withdrawal or addition to the program. An example of abstraction is the use of the terms "if/else". 
+If this abstraction did not exist, it would be necessary to open an "if" for each condition that was necessary in the program. 
+This would make the program extremely long, difficult to read and compress and maintain. It would also be more prone to error during its 
+initial writing. In the case of the program that was made in week 2, the initial prompt that had 5 options, abstraction is 
+used to make the cases be analyzed one by one without creating an if for each case and also creating a default case for error (default)
+
+switch (choice) {
+                case 1:
+                    journal.NewEntry();
+                    Console.WriteLine();
+                    break;
+
+                case 2:
+                    journal.DisplayEntries();
+                    Console.WriteLine();
+                    break;
+
+                case 3:
+                    Console.Write("Insert the file you wanto to save: ");
+                    string fileSaved = Console.ReadLine();
+                    journal.SaveEntries(fileSaved);
+                    Console.WriteLine("Your file have been saved!");
+                    Console.WriteLine();
+                    break;
+
+                case 4:
+                    Console.Write("Inster the file you want to load: ");
+                    string fileLoaded = Console.ReadLine();
+                    journal.LoadEntries(fileLoaded);
+                    Console.WriteLine();
+                    break;
+
+                case 5:
+                    running = false;
+                    Console.WriteLine("Thank you for your time. Don't forget to do it again soon!");
+                    Console.WriteLine();
+                    break;
+
+                default:
+                    Console.WriteLine("Your entry is not correct. Try again!");
+                    break;
+
+If we couldn't use abstractio, we would have to create an if for each one of the cases + one general.
