@@ -1,0 +1,3 @@
+Encapsulation is a way of hiding parts of the class using access modifiers. This way, it is possible to access 
+and change system data without having to change the entire system. This helps the system by making it easier to update or maintain. 
+Also a great way to protect data if you need to keep it private or confidential.
