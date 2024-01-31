@@ -8,4 +8,12 @@ class Reference{
         private int _startVerse;
         private int _endVerse;
 
-In this case we create private encapsulations to keep our string and ints private.
+In this case we create private encapsulations to keep our string and ints private. Not allowing it to be changed later;
+
+public class Entry {
+
+    public string _prompt;
+    public string _response;
+    public string _date;
+
+In last week case we used public strings, allowing the entries to be changed later on.
