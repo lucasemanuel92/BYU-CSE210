@@ -1,3 +1,11 @@
 Encapsulation is a way of hiding parts of the class using access modifiers. This way, it is possible to access 
 and change system data without having to change the entire system. This helps the system by making it easier to update or maintain. 
 Also a great way to protect data if you need to keep it private or confidential.
+
+class Reference{
+        private string _book;
+        private int _chapter;
+        private int _startVerse;
+        private int _endVerse;
+
+In this case we create private encapsulations to keep our string and ints private.
