@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Welcome to our magic number game");
 
         
-        while (newGame == 1) {
+        if (newGame == 1) {
             while (guess != number) {
                 // Creating insert guess
                 Console.Write("Guess the magic number between 1 - 15:  ");
@@ -36,11 +36,12 @@ class Program
                 } else {
                     counter ++;
                     Console.WriteLine($"You guessed it correctly, you tried it {counter} times.");
-                    break;
+                    
+
+                    Console.Write("Enter 1 to play or any other number to exit: ");
+                    string userInp = Console.ReadLine();
+                    newGame = int.Parse(userInp);
                 }   
-                Console.Write("Enter 1 to play or any other number to exit: ");
-                string userInp = Console.ReadLine();
-                newGame = int.Parse(userInp);
                 
             }
         }
